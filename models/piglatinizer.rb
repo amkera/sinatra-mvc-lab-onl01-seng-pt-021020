@@ -15,6 +15,4 @@ class PigLatinizer
     word_array = phrase.split(" ")
     @piglatinized_phrase = word_array.collect {|word| piglatinize(word)}.join(" ")
   end
-  
-  
 end
